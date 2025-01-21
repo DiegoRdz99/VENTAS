@@ -156,7 +156,7 @@ def acquisition(productos):
     BOUGHT_PRODUCTS = []
     while ID != '':
         ID = input(
-            'Escanee el elemento a cobrar:\n(Teclee ENTER para cerrar surtido)\n\n')
+            'Escanee el elemento recibido:\n(Teclee ENTER para cerrar surtido)\n\n')
         if ID in productos.values:
             print('--------------------------------------\n')
             PRODUCT = productos[productos['ID'] == ID]
@@ -184,14 +184,14 @@ def acquisition(productos):
 def snapshot():
     clientes_backup = read_csv("clientes.csv")
     ventas_backup = read_csv("ventas.csv")
-    print('DONE ')
-    TIME = get_time()
+    print('Sus datos han sido respaldados con éxito.')
+    TIME = datetime.now().strftime("%Y_%m_%d %H'%M'%S")  # Tiempo de compra
     clientes_backup.to_csv(f'Snapshots/clientes/{TIME}.csv', index=False)
     ventas_backup.to_csv(f'Snapshots/ventas/{TIME}.csv', index=False)
 
 def donation():
     SPONSOR : str = input('Inserte el nombre del patrocinador:\n\n')
-    
+
 
 
 main()
