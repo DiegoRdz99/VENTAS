@@ -8,7 +8,11 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 7501011126879,Tostitos Morados,18.0,____,7.0
 7500478026036,Doritos Dinamita Flamin Hot,18.0,____,6.0
 7500478018512,Doritos Dinamita Chile y Limón,18.0,____,9.0
-7501011101456,Sabritas Originales,18.0,15.41,0.0
+7501011101456,Sabritas Originales,18.0,15.41,3.0
+7500478043965,Sabritas Crema y Especies,18.0,15.41,3.0
+7501011101678,Sabritas Limón,18.0,15.41,3.0
+7501011143739,Sabritas Xtra Flamin Hot,18.0,15.41,3
+7501011151079,Chicharrón Cerdo Natural,18.0,16.64,6
 7501011104099,Ruffles Queso,18.0,15.41,6.0
 7501011123588,Doritos Nacho,18.0,15.41,9.0
 7501011123878,Doritos Incógnito,18.0,15.41,2.0
@@ -18,6 +22,8 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 7501011143586,Cheetos Torciditos,18.0,12.84,2.0
 7501011165717,Cheetos Colmillos,18.0,12.84,4.0
 7500478015047,Cheetos Bolitas,18.0,12.84,5.0
+7501011143999,Cheetos Nacho,18.0,12.84,5.0
+7500478014606,Cheetos Poffs,18.0,12.84,5.0
 7501011142299,Crujitos,18.0,____,5.0
 7500478016587,Churrumais,18.0,____,4.0
 7500478042319,Churrumais Flamin Hot,18.0,____,3.0
@@ -49,7 +55,7 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 7501761802351,Quaker Avena Manzana,18.0,12.71,2.0
 7501000669509,Gamesa Clásicas Barras de Coco,18.0,15.25,2.0
 7501000641482,Gamesa Clásicas Maravillas,18.0,15.25,4.0
-7501000624683,Gamesa Clásicas Flor de Naranjo,18.0,16.95,1.0
+7501000624683,Gamesa Clásicas Flor de Naranjo,18.0,16.95,0.0
 7500478005598,Gamesa Pan Crema,18.0,12.81,3.0
 7500478039562,Marías Chocotela,18.0,15.25,3.0
 7501000658220,Chocolatines,15.0,10.17,3.0
