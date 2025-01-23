@@ -118,6 +118,7 @@ def payment(CLIENT, clientes):
                 PAID)  # Lo que se paga en el momento
             cash(PAID,True)
             DEBT: float = PREVIOUS_DEBT - PAID  # Deuda acumulada
+            CHANGE = 0.0
             if DEBT < 0.0:
                 CHANGE = DEBT * -1
                 print(f'\n\nSu cambio es de $ {CHANGE:.2f}\n')
@@ -128,7 +129,7 @@ def payment(CLIENT, clientes):
                 clientes.iat[where(clientes == CLIENT)[0][0], 1] = DEBT
             # Abrir documento de ventas solo en modo append
             depositos = open('depositos.csv', 'a')
-            ORDER = f'"{CLIENT}","{TIME}",{PAID:.2f},{CHANGE:.2f}'
+            ORDER = f'"{CLIENT}","{TIME}",{PAID:.2f}'
             depositos.write(ORDER + '\n')
             depositos.close()
             CURRENT_DEBT = clientes.iat[where(clientes == CLIENT)[0][0], 1]
