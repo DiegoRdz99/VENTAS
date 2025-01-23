@@ -17,7 +17,7 @@ def main():
     while True:
         productos = read_csv("productos.csv")
         clientes = read_csv("clientes.csv")
-        CHOICE: str = input('\n###########################\n\nInserte 1 para iniciar una COMPRA\n\nInserte 2 para PAGAR una DEUDA\n\nInserte 3 para CONSULTAR el SALDO\n\nInserte 4 para hacer un respaldo de la base de datos\n\nInserte 5 para recibir mercancía\n\nInserte 6 para hacer un conteo de caja con desglose\n\nInserte ENTER para salir\n\n########################\n\n')
+        CHOICE: str = input('\n###########################\n\nInserte 1 para iniciar una COMPRA\n\nInserte 2 para PAGAR una DEUDA\n\nInserte 3 para CONSULTAR el SALDO\n\nInserte 4 PARA CAMBIAR DINERO\n\nInserte 5 para recibir mercancía\n\nInserte 6 para hacer un conteo de caja con desglose\n\nInserte ENTER para salir\n\n########################\n\n')
         match CHOICE:
             case '1':
                 CLIENT = get_client()
@@ -29,7 +29,7 @@ def main():
                 CLIENT = get_client()
                 consult(CLIENT=CLIENT, clientes=clientes)
             case '4':
-                snapshot()
+                # snapshot()
             case '5':
                 acquisition(productos=productos)
             case '6':
@@ -125,12 +125,11 @@ def payment(CLIENT, clientes):
                 clientes.iat[where(clientes == CLIENT)[0][0], 1] = 0
             else:
                 clientes.iat[where(clientes == CLIENT)[0][0], 1] = DEBT
-            GOOD = 'depósito'
             # Abrir documento de ventas solo en modo append
-            ventas = open('ventas.csv', 'a')
-            ORDER = f'"{CLIENT}",{GOOD},"{TIME}",{PAID}'
-            ventas.write(ORDER + '\n')
-            ventas.close()
+            depositos = open('depositos.csv', 'a')
+            ORDER = f'"{CLIENT}","{TIME}",{PAID:.2f},{CHANGE:.2f}'
+            depositos.write(ORDER + '\n')
+            depositos.close()
             CURRENT_DEBT = clientes.iat[where(clientes == CLIENT)[0][0], 1]
             clientes.to_csv('clientes.csv', index=False)
             print(f'-------------------------------------\nAhora {CLIENT} debe un total de $ {CURRENT_DEBT:.2f}\n\n====================\n')
@@ -185,17 +184,6 @@ def acquisition(productos):
             productos.to_csv('productos.csv', index=False)
             inventario.write(ORDER + '\n')
             inventario.close()
-
-
-def snapshot():
-    from os import system
-    TIME = datetime.now().strftime("%Y_%m_%d %H'%M'%S")  # Tiempo de compra
-    files = ['caja','clientes','cupones','inventario','productos','ventas']
-    system(f'mkdir "Snapshots/{TIME}"')
-    for FILE in files:
-        system(f'cp {FILE}.csv "Snapshots/{TIME}/{FILE}.csv"')
-    print('\n\n---------------------------------\n\nSus datos han sido respaldados con éxito.\n\n----------------------')
-    input('Presione ENTER para continuar')
 
 
 def donation():
