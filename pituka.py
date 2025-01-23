@@ -30,6 +30,7 @@ def main():
                 consult(CLIENT=CLIENT, clientes=clientes)
             case '4':
                 # snapshot()
+                pass
             case '5':
                 acquisition(productos=productos)
             case '6':

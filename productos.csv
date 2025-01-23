@@ -62,10 +62,10 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 # Refrescos,,,,
 75005771,Coca Cola Regular,15.0,9.73,57.0
 7501055377411,Joya Ponche,15.0,9.73,21.0
-7501055330683,Del Valle Frut,20.0,15.17,19.0
+7501055330683,Del Valle Frut,20.0,15.17,18.0
 021136414547,Topo Chico Sangría,15.0,____,15.0
-021136010374,Topo Chico Agua Mineral,15.0,____,13.0
-7501055310777,Powerade Azul,20.0,19.08,9.0
+021136010374,Topo Chico Agua Mineral,15.0,____,12.0
+7501055310777,Powerade Azul,20.0,19.08,8.0
 7501055310784,Powerade Rojo,20.0,19.08,32.0
 # REfri,,,,
 706460200164,Snickers Mini,8.0,_____,24.0
