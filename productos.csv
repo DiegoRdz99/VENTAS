@@ -4,8 +4,8 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 7501011148963,Paketaxo Amarillo,18.0,17.12,3.0
 7501011144460,Paketaxo Morado,18.0,17.12,1.0
 7501011114623,Paketaxo Azul,18.0,17.20,0.0
-7501011127012,Tostitos Verdes,18.0,____,10.0
-7501011126879,Tostitos Morados,18.0,____,7.0
+7501011127012,Tostitos Verdes,15.0,____,10.0
+7501011126879,Tostitos Morados,15.0,____,7.0
 7500478026036,Doritos Dinamita Flamin Hot,18.0,____,6.0
 7500478018512,Doritos Dinamita Chile y Limón,18.0,____,9.0
 7501011101456,Sabritas Originales,18.0,15.41,3.0
@@ -48,7 +48,7 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 7500478015931,Fruts,20.0,19.49,0.0
 7500478026562,Florentinas Fresa,18.0,15.25,1.0
 7500478026579,Florentinas Cajeta,18.0,15.25,4.0
-7500478022885,Cremax Chocolate,18.0,15.25,2.0
+7500478022885,Cremax Chocolate,12.0,15.25,2.0
 7500478022892,Cremax Vainilla,18.0,15.25,0.0
 7501761802566,Quaker Avena Chocolate,18.0,12.71,1.0
 7501761802375,Quaker Avena Frutos Rojos,18.0,12.71,2.0
@@ -56,7 +56,7 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 7501000669509,Gamesa Clásicas Barras de Coco,18.0,15.25,2.0
 7501000641482,Gamesa Clásicas Maravillas,18.0,15.25,3.0
 7501000624683,Gamesa Clásicas Flor de Naranjo,18.0,16.95,0.0
-7500478005598,Gamesa Pan Crema,15.0,12.81,2.0
+7500478005598,Gamesa Pan Crema,10.0,12.81,2.0
 7500478039562,Marías Chocotela,18.0,15.25,3.0
 7501000658220,Chocolatines,15.0,10.17,3.0
 # Refrescos,,,,

@@ -96,7 +96,7 @@ def purchase(CLIENT, productos, clientes):
                 for GOOD in BOUGHT_PRODUCTS:
                     productos.iat[where(productos == GOOD)[0][0], 4] -= 1
                     productos.to_csv('productos.csv', index=False)
-                    ORDER = f'"{CLIENT}",{GOOD},"{TIME}",{PAID}'
+                    ORDER = f'"{CLIENT}",{GOOD},"{TIME}"'
                     ventas.write(ORDER + '\n')
                 ventas.close()
                 break
