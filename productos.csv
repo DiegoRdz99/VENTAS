@@ -5,9 +5,12 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 7501011144460,Paketaxo Morado,18.0,17.12,1.0
 7501011114623,Paketaxo Azul,18.0,17.20,0.0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 7501011127012,Tostitos Verdes,15.0,____,10.0
 7501011126879,Tostitos Morados,15.0,____,7.0
 =======
+=======
+>>>>>>> Stashed changes
 7501011127012,Tostitos Verdes,18.0,____,8.0
 7501011126879,Tostitos Morados,18.0,____,7.0
 >>>>>>> Stashed changes
@@ -54,7 +57,11 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 7500478026562,Florentinas Fresa,18.0,15.25,1.0
 7500478026579,Florentinas Cajeta,18.0,15.25,4.0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 7500478022885,Cremax Chocolate,12.0,15.25,2.0
+=======
+7500478022885,Cremax Chocolate,18.0,15.25,1.0
+>>>>>>> Stashed changes
 =======
 7500478022885,Cremax Chocolate,18.0,15.25,1.0
 >>>>>>> Stashed changes
