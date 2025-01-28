@@ -2,8 +2,8 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 # Frituras,,,,
 7501011112438,Paketaxo Verde,18.0,17.12,5.0
 7501011148963,Paketaxo Amarillo,18.0,17.12,3.0
-7501011144460,Paketaxo Morado,18.0,17.12,1.0
-7501011114623,Paketaxo Azul,18.0,17.20,0.0
+7501011144460,Paketaxo Morado,18.0,17.12,3.0
+7501011114623,Paketaxo Azul,18.0,17.20,6.0
 7501011126879,Tostitos Morados,15.0,____,7.0
 7501011127012,Tostitos Verdes,15.0,____,16.0
 7500478026036,Doritos Dinamita Flamin Hot,18.0,____,6.0
@@ -31,8 +31,9 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 7500478042319,Churrumais Flamin Hot,18.0,____,3.0
 7501011149205,Sabritones,10.0,____,2.0
 # Cacahuates,,,,
-7500478031863,Karate Chile y Limón,18.0,____,3.0
-7500478025985,Karate Japonés 65g,18.0,____,0.0
+7500478031863,Karate Chile y Limón,18.0,12.84,11.0
+7500478025985,Karate Japonés 65g,18.0,12.84,0.0
+7500478031047,Karate Churrumais con Limón,12.84,2.0
 # Galletas,,,,
 7500478022502,Emperador Limón,18.0,15.25,2.0
 7500478022519,Emperador Vainilla,18.0,15.25,2.0
