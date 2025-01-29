@@ -33,7 +33,7 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 # Cacahuates,,,,
 7500478031863,Karate Chile y Limón,18.0,12.84,11.0
 7500478025985,Karate Japonés 65g,18.0,12.84,0.0
-7500478031047,Karate Churrumais con Limón,12.84,2.0
+7500478031047,Karate Churrumais con Limón,18.0,12.84,2.0
 # Galletas,,,,
 7500478022502,Emperador Limón,18.0,15.25,2.0
 7500478022519,Emperador Vainilla,18.0,15.25,2.0
@@ -77,4 +77,6 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 7501011150416,Milch,18.0,15.00,14.0
 #PRUEBA,,,,
 633148100013,Tajín,20.0,10.00,19.0
-test,Takis,18.0,15.00,20.0
+test,Takis,18.0,15.00,0.0
+test1,MuiBon,18.0,15.00,0.0
+test2,De2 de Keso,18.0,15.00,0.0

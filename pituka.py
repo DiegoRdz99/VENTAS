@@ -158,34 +158,31 @@ def consult(CLIENT, clientes):
 
 
 def acquisition(productos):
-    TIME = get_time()
-    ID = '12345'
-    BOUGHT_PRODUCTS = []
+    TIME : str = get_time()
+    ID : str = '12345'
+    BOUGHT_PRODUCTS : list = []
+    inventario = open('inventario.csv', 'a')    # Abrir documento de ventas solo en modo append
     while ID != '':
         ID = input(
             'Escanee el elemento recibido:\n(Teclee ENTER para cerrar surtido)\n\n')
         if ID in productos.values:
             print('--------------------------------------\n')
-            PRODUCT = productos[productos['ID'] == ID]
-            # UNIT_PRICE = float(PRODUCT["UNIT_PRICE"].iloc[0])
+            PRODUCT : str = productos[productos['ID'] == ID]
             NAME: str = str(PRODUCT["NAME"].iloc[0])
-            QUANTITY: str = input(f'Inserte la cantidad de {
-                                  NAME} que se recibieron:\n\n')
+            QUANTITY: str = input(f'Inserte la cantidad de {NAME} que se recibieron:\n\n')
             QUANTITY: int = 0 if (QUANTITY == '') else int(QUANTITY)
-            BOUGHT_PRODUCTS += [ID]
-            # Abrir documento de ventas solo en modo append
-            inventario = open('inventario.csv', 'a')
+            BOUGHT_PRODUCTS += [(ID,QUANTITY)]
         elif ID != '':
             print('\nEse producto no existe\nIntente de nuevo\n!!!!!!!!!!!!!\nO pulse ENTER para cerrar el pedido\n')
     if BOUGHT_PRODUCTS == []:
         pass
     else:
-        for GOOD in BOUGHT_PRODUCTS:
+        for GOOD,QUANTITY in BOUGHT_PRODUCTS:
             ORDER = f'"{GOOD}",{QUANTITY},"{TIME}"'
             productos.iat[where(productos == GOOD)[0][0], 4] += QUANTITY
             productos.to_csv('productos.csv', index=False)
             inventario.write(ORDER + '\n')
-            inventario.close()
+    inventario.close()
 
 
 def donation():
