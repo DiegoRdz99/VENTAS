@@ -1,11 +1,11 @@
 ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 # Frituras,,,,
 7501011112438,Paketaxo Verde,18.0,17.12,5.0
-7501011148963,Paketaxo Amarillo,18.0,17.12,3.0
+7501011148963,Paketaxo Amarillo,18.0,17.12,2.0
 7501011144460,Paketaxo Morado,18.0,17.12,3.0
 7501011114623,Paketaxo Azul,18.0,17.20,4.0
 7501011126879,Tostitos Morados,15.0,____,7.0
-7501011127012,Tostitos Verdes,15.0,____,10.0
+7501011127012,Tostitos Verdes,15.0,____,9.0
 7500478026036,Doritos Dinamita Flamin Hot,18.0,____,6.0
 7500478018512,Doritos Dinamita Chile y Limón,18.0,____,9.0
 7501011123588,Doritos Nacho,18.0,15.41,6.0
@@ -18,13 +18,13 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 7501011101678,Sabritas Limón,18.0,15.41,0.0
 7501011143739,Sabritas Xtra Flamin Hot,18.0,15.41,0.0
 7500478038664,Sabritas Crujiente Flamin Hot,18.0,17.12,4.0
-7501011151079,Chicharrón Cerdo Natural,18.0,16.64,4.0
+7501011151079,Chicharrón Cerdo Natural,18.0,16.64,3.0
 7501011104099,Ruffles Queso,18.0,15.41,1.0
 7501011143586,Cheetos Torciditos,18.0,12.84,3.0
 7501011165717,Cheetos Colmillos,18.0,12.84,4.0
 7500478015047,Cheetos Bolitas,18.0,12.84,5.0
 7501011143999,Cheetos Nacho,18.0,12.84,6.0
-7500478014606,Cheetos Poffs,18.0,12.84,6.0
+7500478014606,Cheetos Poffs,18.0,12.84,5.0
 7501011143753,Cheetos Xtra Flamin Hot,18.0,12.84,3.0
 7501011142299,Crujitos,18.0,____,2.0
 7500478016587,Churrumais,18.0,____,3.0
@@ -33,14 +33,14 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 # Cacahuates,,,,
 7500478031863,Karate Chile y Limón,18.0,12.84,11.0
 7500478025985,Karate Japonés 65g,18.0,12.84,0.0
-7500478031047,Karate Churrumais con Limón,18.0,12.84,1.0
+7500478031047,Karate Churrumais con Limón,18.0,12.84,0.0
 # Galletas,,,,
 7500478022502,Emperador Limón,18.0,15.25,2.0
 7500478022519,Emperador Vainilla,18.0,15.25,2.0
 7500478022496,Emperador Chocolate,18.0,15.25,0.0
 7500478021581,Emperador Combinado,18.0,15.25,3.0
 7500478022540,Emperador Nuez,18.0,15.25,2.0
-7500478022373,Emperador Senzo,18.0,15.25,3.0
+7500478022373,Emperador Senzo,18.0,15.25,2.0
 7500478021598,Giro,18.0,15.25,1.0
 7500478014569,Chokis Clásicas,18.0,15.25,2.0
 7501000604685,Chokis Rellenas,18.0,15.25,2.0
@@ -65,9 +65,9 @@ ID,NAME,PRICE,UNIT_PRICE,QUANTITY
 # Refrescos,,,,
 75005771,Coca Cola Regular,15.0,9.73,51.0
 7501055377411,Joya Ponche,15.0,9.73,20.0
-7501055330683,Del Valle Frut,20.0,15.17,14.0
-021136414547,Topo Chico Sangría,15.0,____,8.0
-021136010374,Topo Chico Agua Mineral,15.0,____,4.0
+7501055330683,Del Valle Frut,20.0,15.17,13.0
+021136414547,Topo Chico Sangría,15.0,____,7.0
+021136010374,Topo Chico Agua Mineral,15.0,____,3.0
 7501055310777,Powerade Azul,20.0,19.08,5.0
 7501055310784,Powerade Rojo,20.0,19.08,31.0
 # REfri,,,,
